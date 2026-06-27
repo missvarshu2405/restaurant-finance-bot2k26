@@ -1,0 +1,21 @@
+{
+  "name": "restaurant-ledger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vercel-build": "vite build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "chart.js": "^4.4.9",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
